@@ -41,14 +41,14 @@ const Navigation = () => {
                 to={item.path}
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive(item.path)
-                    ? 'text-lume-blue border-b-2 border-lume-blue'
-                    : 'text-gray-700 hover:text-lume-blue hover:border-b-2 hover:border-lume-blue'
+                    ? 'text-lume-green border-b-2 border-lume-green'
+                    : 'text-gray-700 hover:text-lume-green hover:border-b-2 hover:border-lume-green'
                 }`}
               >
                 {item.label}
               </Link>
             ))}
-            <Button className="bg-lume-blue hover:bg-blue-700 text-white">
+            <Button className="bg-lume-green hover:bg-green-700 text-white">
               Get Started
             </Button>
           </div>
@@ -75,8 +75,8 @@ const Navigation = () => {
                   to={item.path}
                   className={`block px-3 py-2 text-base font-medium transition-colors ${
                     isActive(item.path)
-                      ? 'text-lume-blue bg-lume-light-blue'
-                      : 'text-gray-700 hover:text-lume-blue hover:bg-gray-50'
+                      ? 'text-lume-green bg-lume-light-green'
+                      : 'text-gray-700 hover:text-lume-green hover:bg-gray-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
@@ -84,7 +84,7 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-lume-blue hover:bg-blue-700 text-white">
+                <Button className="w-full bg-lume-green hover:bg-green-700 text-white">
                   Get Started
                 </Button>
               </div>

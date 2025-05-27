@@ -13,7 +13,7 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-lume-blue via-blue-700 to-lume-green py-24">
+      <section className="relative overflow-hidden bg-gradient-to-br from-lume-green via-green-600 to-lume-blue py-24">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -24,7 +24,7 @@ const Index = () => {
               Intelligent Skilling Infrastructure
               <span className="block text-lume-yellow">for a Smarter Workforce</span>
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
               From learning to certification, we power the future of work with AI-driven platforms 
               for skill development, assessment, and talent readiness.
             </p>
@@ -34,7 +34,7 @@ const Index = () => {
                   Explore Products <ArrowRight className="ml-2" size={20} />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-blue">
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
                 <Link to="/contact">
                   Partner With Us
                 </Link>
@@ -53,9 +53,9 @@ const Index = () => {
       </section>
 
       {/* Trust Banner */}
-      <section className="py-8 bg-lume-light-blue border-b">
+      <section className="py-8 bg-lume-light-green border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-lume-blue font-semibold text-lg">
+          <p className="text-lume-green font-semibold text-lg">
             Trusted by educators, governments, and global enterprises
           </p>
         </div>
@@ -77,7 +77,7 @@ const Index = () => {
             {/* LUME Vocational Platform */}
             <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-blue rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-green transition-colors">
+                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
                   <BookOpen className="text-white" size={28} />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Vocational Platform</CardTitle>
@@ -100,7 +100,7 @@ const Index = () => {
                     Rich Media Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-blue hover:bg-blue-700">
+                <Button asChild className="w-full bg-lume-green hover:bg-green-700">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
@@ -109,64 +109,63 @@ const Index = () => {
             {/* LUME Certification Engine */}
             <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
+                <div className="mx-auto w-16 h-16 bg-lume-blue rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-green transition-colors">
                   <Award className="text-white" size={28} />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Certification Engine</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Comprehensive assessment and certification platform
+                  Assessment & certificate platform with blockchain verification
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Smart Assessment Engine
+                    Blockchain Certificates
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Automated Certification Flow
+                    Assessment Engine
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
                     Multilingual Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-green hover:bg-green-700">
+                <Button asChild className="w-full bg-lume-blue hover:bg-blue-700">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
 
-            {/* LUME Skill Graph */}
+            {/* LUME Skill Engine */}
             <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-yellow rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
-                  <Brain className="text-black" size={28} />
+                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
+                  <Brain className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900">LUME Skill Graph</CardTitle>
+                <CardTitle className="text-xl font-bold text-gray-900">LUME Skill Engine</CardTitle>
                 <CardDescription className="text-gray-600">
-                  AI-powered skill mapping and intelligence engine
+                  AI-powered skill intelligence for workforce capability
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Badge className="mb-4 bg-lume-yellow text-black">Coming Soon</Badge>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    AI Skill Mapping
+                    Dynamic Skill Mapping
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Career Path Intelligence
+                    Personalized Learning Paths
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Talent Analytics
+                    Employment Alignment
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-yellow text-black hover:bg-yellow-400">
-                  <Link to="/contact">Join Beta</Link>
+                <Button asChild className="w-full bg-lume-green hover:bg-green-700">
+                  <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -189,7 +188,7 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-blue to-lume-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <BookOpen className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Learning</h3>
@@ -205,7 +204,7 @@ const Index = () => {
             </div>
 
             <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-yellow to-lume-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-yellow to-lume-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Award className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Mastery</h3>
@@ -213,7 +212,7 @@ const Index = () => {
             </div>
 
             <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-blue to-lume-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <Users className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Employment</h3>
@@ -224,12 +223,12 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-lume-blue to-lume-green">
+      <section className="py-20 bg-gradient-to-r from-lume-green to-lume-blue">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Transform Your Workforce?
           </h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
             Join organizations worldwide who trust LUME to power their skilling infrastructure
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -238,7 +237,7 @@ const Index = () => {
                 Schedule Demo <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-blue">
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
               <Link to="/products">
                 Explore Solutions
               </Link>
