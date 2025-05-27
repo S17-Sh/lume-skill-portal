@@ -28,7 +28,7 @@ const Navigation = () => {
               <img 
                 src="/lovable-uploads/03e4c471-cf8e-4226-b1ae-04e55d73bb7e.png" 
                 alt="LUME Global.AI" 
-                className="h-8 w-auto"
+                className="h-10 w-auto sm:h-12 md:h-10"
               />
             </Link>
           </div>

@@ -3,53 +3,35 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Team = () => {
-  const teamMembers = [
+  const leadershipMembers = [
     {
-      name: "Sarah Chen",
-      role: "Chief Executive Officer",
-      bio: "Former VP of Learning Technology at Microsoft with 15+ years in EdTech and AI. Led digital transformation initiatives across Fortune 500 companies.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612e1e8?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#"
+      name: "Lika Jain",
+      image: "/lovable-uploads/lika-jain.jpg",
+      description: "Seasoned corporate strategy & finance professional with experience in Education, Telecom, Media, and Consumer Tech"
     },
     {
-      name: "Dr. Michael Rodriguez",
-      role: "Chief Technology Officer",
-      bio: "PhD in Computer Science from Stanford. Former Principal Engineer at Google AI. Expert in machine learning and scalable system architecture.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#"
+      name: "Anil Ambati", 
+      image: "/lovable-uploads/anil-ambati.jpg",
+      description: "Accomplished sales professional with expertise in Private & Government Business across sectors"
     },
     {
-      name: "Priya Patel",
-      role: "Chief Product Officer",
-      bio: "Former Head of Product at Coursera. 12+ years building user-centered learning platforms that serve millions of learners globally.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#"
-    },
-    {
-      name: "James Thompson",
-      role: "Chief Revenue Officer",
-      bio: "Former VP Sales at Salesforce Education. Built and scaled B2B sales teams across enterprise EdTech and SaaS companies.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
-      linkedin: "#"
+      name: "Shivani Karkal",
+      image: "/lovable-uploads/shivani-karkal.jpg", 
+      description: "Dynamic business strategist with experience in Retail, Edtech & Skilling"
     }
   ];
 
-  const advisors = [
+  const contributors = [
     {
-      name: "Dr. Elena Vasquez",
-      role: "Education Advisor",
-      bio: "Former UNESCO Director of Digital Learning. 20+ years in global education policy and workforce development.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+      name: "CD1: Dinesh",
+      image: "/lovable-uploads/cd1-dinesh.jpg"
     },
     {
-      name: "Robert Kim",
-      role: "Technology Advisor",
-      bio: "Former CTO at Khan Academy. Pioneer in scalable educational technology and adaptive learning systems.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+      name: "CD2: Santosh", 
+      image: "/lovable-uploads/cd2-santosh.jpg"
     }
   ];
 
@@ -61,10 +43,13 @@ const Team = () => {
       <section className="py-20 bg-gradient-to-br from-lume-blue to-lume-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Meet Our Team
+            Our Leadership
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            World-class experts in education, technology, and human development working together to transform the future of learning.
+          <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-4">
+            Seasoned team with cumulative experience of 120+ years
+          </p>
+          <p className="text-lg text-blue-100 max-w-3xl mx-auto">
+            Diverse group of experts with deep domain knowledge, global experience, and a shared commitment to innovation.
           </p>
         </div>
       </section>
@@ -72,18 +57,9 @@ const Team = () => {
       {/* Leadership Team */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our founding team brings together decades of experience from leading technology and education companies
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {teamMembers.map((member, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow group">
+          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {leadershipMembers.map((member, index) => (
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
                 <CardHeader className="text-center pb-4">
                   <div className="mx-auto w-32 h-32 rounded-full overflow-hidden mb-4 group-hover:scale-105 transition-transform">
                     <img 
@@ -93,20 +69,9 @@ const Team = () => {
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-gray-900">{member.name}</CardTitle>
-                  <p className="text-lume-blue font-semibold">{member.role}</p>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <p className="text-gray-700 mb-4">{member.bio}</p>
-                  <div className="flex justify-center space-x-3">
-                    <Button size="sm" variant="outline" className="border-lume-blue text-lume-blue hover:bg-lume-blue hover:text-white">
-                      <Linkedin size={16} className="mr-1" />
-                      LinkedIn
-                    </Button>
-                    <Button size="sm" variant="outline" className="border-gray-400 text-gray-600 hover:bg-gray-600 hover:text-white">
-                      <Mail size={16} className="mr-1" />
-                      Email
-                    </Button>
-                  </div>
+                  <p className="text-gray-700">{member.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -114,35 +79,31 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Advisors */}
+      {/* Contributors Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Our Advisors
+              Core Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Industry veterans who guide our strategic direction and product development
+              Dedicated contributors who drive our mission forward
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {advisors.map((advisor, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow group">
+            {contributors.map((contributor, index) => (
+              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
                 <CardHeader className="text-center pb-4">
                   <div className="mx-auto w-24 h-24 rounded-full overflow-hidden mb-4 group-hover:scale-105 transition-transform">
                     <img 
-                      src={advisor.image} 
-                      alt={advisor.name}
+                      src={contributor.image} 
+                      alt={contributor.name}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <CardTitle className="text-lg font-bold text-gray-900">{advisor.name}</CardTitle>
-                  <p className="text-lume-green font-semibold">{advisor.role}</p>
+                  <CardTitle className="text-lg font-bold text-gray-900">{contributor.name}</CardTitle>
                 </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-gray-700">{advisor.bio}</p>
-                </CardContent>
               </Card>
             ))}
           </div>
