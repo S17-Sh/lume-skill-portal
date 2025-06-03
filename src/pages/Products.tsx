@@ -244,7 +244,7 @@ const Products = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+            <Card className="border-0 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Zap className="mx-auto text-lume-green mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Seamless Workflow</CardTitle>
@@ -256,7 +256,7 @@ const Products = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+            <Card className="border-0 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Users className="mx-auto text-lume-blue mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Unified Analytics</CardTitle>
@@ -268,7 +268,7 @@ const Products = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+            <Card className="border-0 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Globe className="mx-auto text-lume-yellow mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Global Scale</CardTitle>
