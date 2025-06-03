@@ -9,29 +9,18 @@ const Team = () => {
   const leadershipMembers = [
     {
       name: "Lika Jain",
-      image: "/lovable-uploads/lika-jain.jpg",
+      image: "/lovable-uploads/3f137d77-58df-4cda-9e2d-591c3c0f532f.png",
       description: "Seasoned corporate strategy & finance professional with experience in Education, Telecom, Media, and Consumer Tech"
     },
     {
       name: "Anil Ambati", 
-      image: "/lovable-uploads/anil-ambati.jpg",
+      image: "/lovable-uploads/4fb1f36f-52c6-4f11-af2c-4a6230096aed.png",
       description: "Accomplished sales professional with expertise in Private & Government Business across sectors"
     },
     {
       name: "Shivani Karkal",
-      image: "/lovable-uploads/shivani-karkal.jpg", 
+      image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
       description: "Dynamic business strategist with experience in Retail, Edtech & Skilling"
-    }
-  ];
-
-  const contributors = [
-    {
-      name: "CD1: Dinesh",
-      image: "/lovable-uploads/cd1-dinesh.jpg"
-    },
-    {
-      name: "CD2: Santosh", 
-      image: "/lovable-uploads/cd2-santosh.jpg"
     }
   ];
 
@@ -79,39 +68,8 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Contributors Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Core Team
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Dedicated contributors who drive our mission forward
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {contributors.map((contributor, index) => (
-              <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto w-24 h-24 rounded-full overflow-hidden mb-4 group-hover:scale-105 transition-transform">
-                    <img 
-                      src={contributor.image} 
-                      alt={contributor.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <CardTitle className="text-lg font-bold text-gray-900">{contributor.name}</CardTitle>
-                </CardHeader>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Company Culture */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
