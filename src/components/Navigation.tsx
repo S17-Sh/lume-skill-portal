@@ -42,7 +42,7 @@ const Navigation = () => {
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive(item.path)
                     ? 'text-lume-green border-b-2 border-lume-green'
-                    : 'text-gray-700 hover:text-lume-green hover:border-b-2 hover:border-lume-green'
+                    : 'text-gray-700 hover:text-lume-green'
                 }`}
               >
                 {item.label}

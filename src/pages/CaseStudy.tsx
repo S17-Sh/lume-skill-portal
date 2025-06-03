@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -31,45 +30,18 @@ const CaseStudy = () => {
       {/* Executive Summary */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-8 mb-16">
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Executive Summary</h2>
-              <p className="text-lg text-gray-700 mb-6">
-                A leading industrial certification body in Oman, responsible for workforce development 
-                in the Energy and Mineral sector, required a scalable digital infrastructure to deliver 
-                vocational training and competency-based certification across various industrial job roles.
-              </p>
-              <p className="text-lg text-gray-700">
-                Using LUME's modular skilling suite, we delivered an integrated solution that transformed 
-                their training and certification processes, enabling rapid, standardized skilling at a 
-                national and sectoral level to support workforce transformation in industrial economies.
-              </p>
-            </div>
-            <div>
-              <Card className="border-0 shadow-lg bg-lume-light-blue">
-                <CardHeader>
-                  <CardTitle className="text-lume-blue">Quick Facts</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="flex items-center">
-                    <Globe className="text-lume-blue mr-2" size={20} />
-                    <span className="text-gray-700">Energy & Minerals Sector</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Users className="text-lume-blue mr-2" size={20} />
-                    <span className="text-gray-700">2 Candidates per Session</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Clock className="text-lume-blue mr-2" size={20} />
-                    <span className="text-gray-700">45 Min Max Sessions</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Award className="text-lume-blue mr-2" size={20} />
-                    <span className="text-gray-700">Blockchain Certificates</span>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Executive Summary</h2>
+            <p className="text-lg text-gray-700 mb-6">
+              A leading industrial certification body in Oman, responsible for workforce development 
+              in the Energy and Mineral sector, required a scalable digital infrastructure to deliver 
+              vocational training and competency-based certification across various industrial job roles.
+            </p>
+            <p className="text-lg text-gray-700">
+              Using LUME's modular skilling suite, we delivered an integrated solution that transformed 
+              their training and certification processes, enabling rapid, standardized skilling at a 
+              national and sectoral level to support workforce transformation in industrial economies.
+            </p>
           </div>
         </div>
       </section>
@@ -184,14 +156,6 @@ const CaseStudy = () => {
                   <li className="flex items-start">
                     <CheckCircle className="text-lume-green mr-2 mt-1" size={16} />
                     <span className="text-gray-700">Blockchain-backed digital certificates</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-lume-green mr-2 mt-1" size={16} />
-                    <span className="text-gray-700">Controlled batch assessments (2 per session)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-lume-green mr-2 mt-1" size={16} />
-                    <span className="text-gray-700">45-minute maximum session duration</span>
                   </li>
                 </ul>
               </CardContent>
