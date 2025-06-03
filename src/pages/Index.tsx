@@ -29,12 +29,12 @@ const Index = () => {
               for skill development, assessment, and talent readiness.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-lume-yellow text-black hover:bg-yellow-400 font-semibold">
+              <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold">
                 <Link to="/products">
                   Explore Products <ArrowRight className="ml-2" size={20} />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
+              <Button asChild size="lg" variant="outline" className="border-white text-white">
                 <Link to="/contact">
                   Partner With Us
                 </Link>
@@ -75,9 +75,9 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* LUME Vocational Platform */}
-            <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
+            <Card className="transition-all duration-300 border-0 shadow-lg">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
+                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 transition-colors">
                   <BookOpen className="text-white" size={28} />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Vocational Platform</CardTitle>
@@ -100,16 +100,16 @@ const Index = () => {
                     Rich Media Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-green hover:bg-green-700">
+                <Button asChild className="w-full bg-lume-green">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
 
             {/* LUME Certification Engine */}
-            <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
+            <Card className="transition-all duration-300 border-0 shadow-lg">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-blue rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-green transition-colors">
+                <div className="mx-auto w-16 h-16 bg-lume-blue rounded-xl flex items-center justify-center mb-4 transition-colors">
                   <Award className="text-white" size={28} />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Certification Engine</CardTitle>
@@ -132,16 +132,16 @@ const Index = () => {
                     Multilingual Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-blue hover:bg-blue-700">
+                <Button asChild className="w-full bg-lume-blue">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
 
             {/* LUME Skill Engine */}
-            <Card className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
+            <Card className="transition-all duration-300 border-0 shadow-lg">
               <CardHeader className="text-center pb-4">
-                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 group-hover:bg-lume-blue transition-colors">
+                <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4 transition-colors">
                   <Brain className="text-white" size={28} />
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Skill Engine</CardTitle>
@@ -164,7 +164,7 @@ const Index = () => {
                     Employment Alignment
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-green hover:bg-green-700">
+                <Button asChild className="w-full bg-lume-green">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
@@ -187,32 +187,32 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <div className="text-center">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 transition-transform">
                 <BookOpen className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Learning</h3>
               <p className="text-gray-600">Foundational knowledge acquisition with AI-powered personalization</p>
             </div>
 
-            <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-yellow rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <div className="text-center">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-yellow rounded-2xl flex items-center justify-center mb-6 transition-transform">
                 <Zap className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Upskilling</h3>
               <p className="text-gray-600">Continuous skill development aligned with industry demands</p>
             </div>
 
-            <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-yellow to-lume-green rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <div className="text-center">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-yellow to-lume-green rounded-2xl flex items-center justify-center mb-6 transition-transform">
                 <Award className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Mastery</h3>
               <p className="text-gray-600">Deep expertise validation through comprehensive assessment</p>
             </div>
 
-            <div className="text-center group">
-              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+            <div className="text-center">
+              <div className="mx-auto w-20 h-20 bg-gradient-to-br from-lume-green to-lume-blue rounded-2xl flex items-center justify-center mb-6 transition-transform">
                 <Users className="text-white" size={32} />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Employment</h3>
@@ -232,12 +232,12 @@ const Index = () => {
             Join organizations worldwide who trust LUME to power their skilling infrastructure
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-lume-yellow text-black hover:bg-yellow-400 font-semibold">
+            <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold">
               <Link to="/contact">
                 Schedule Demo <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
+            <Button asChild size="lg" variant="outline" className="border-white text-white">
               <Link to="/products">
                 Explore Solutions
               </Link>
