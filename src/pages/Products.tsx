@@ -75,7 +75,7 @@ const Products = () => {
                 </div>
               </div>
 
-              <Button asChild className="bg-lume-green hover:bg-green-700">
+              <Button asChild className="bg-lume-green hover:bg-green-700 text-white">
                 <Link to="/contact">
                   Request Demo <ArrowRight className="ml-2" size={18} />
                 </Link>
@@ -85,7 +85,7 @@ const Products = () => {
               <div className="w-full h-96 bg-gradient-to-br from-lume-light-green to-white rounded-2xl border-2 border-lume-green/20 flex items-center justify-center">
                 <div className="text-center">
                   <BookOpen size={80} className="text-lume-green mx-auto mb-4" />
-                  <p className="text-gray-600">Interactive Learning Dashboard</p>
+                  <p className="text-gray-700 font-medium">Interactive Learning Dashboard</p>
                 </div>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Products = () => {
                 </div>
               </div>
 
-              <Button asChild className="bg-lume-blue hover:bg-blue-700">
+              <Button asChild className="bg-lume-blue hover:bg-blue-700 text-white">
                 <Link to="/contact">
                   Learn More <ArrowRight className="ml-2" size={18} />
                 </Link>
@@ -154,7 +154,7 @@ const Products = () => {
               <div className="w-full h-96 bg-gradient-to-br from-lume-light-blue to-white rounded-2xl border-2 border-lume-blue/20 flex items-center justify-center">
                 <div className="text-center">
                   <Award size={80} className="text-lume-blue mx-auto mb-4" />
-                  <p className="text-gray-600">Certification Dashboard</p>
+                  <p className="text-gray-700 font-medium">Certification Dashboard</p>
                 </div>
               </div>
             </div>
@@ -213,7 +213,7 @@ const Products = () => {
                 </div>
               </div>
 
-              <Button asChild className="bg-lume-green hover:bg-green-700">
+              <Button asChild className="bg-lume-green hover:bg-green-700 text-white">
                 <Link to="/contact">
                   Learn More <ArrowRight className="ml-2" size={18} />
                 </Link>
@@ -223,7 +223,7 @@ const Products = () => {
               <div className="w-full h-96 bg-gradient-to-br from-lume-light-green to-white rounded-2xl border-2 border-lume-green/20 flex items-center justify-center">
                 <div className="text-center">
                   <Brain size={80} className="text-lume-green mx-auto mb-4" />
-                  <p className="text-gray-600">Skill Intelligence Dashboard</p>
+                  <p className="text-gray-700 font-medium">Skill Intelligence Dashboard</p>
                 </div>
               </div>
             </div>
@@ -238,13 +238,13 @@ const Products = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
               Integrated Platform Benefits
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               When all components work together, the whole becomes greater than the sum of its parts
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg bg-white">
+            <Card className="border border-gray-200 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Zap className="mx-auto text-lume-green mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Seamless Workflow</CardTitle>
@@ -256,7 +256,7 @@ const Products = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white">
+            <Card className="border border-gray-200 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Users className="mx-auto text-lume-blue mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Unified Analytics</CardTitle>
@@ -268,7 +268,7 @@ const Products = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white">
+            <Card className="border border-gray-200 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Globe className="mx-auto text-lume-yellow mb-4" size={48} />
                 <CardTitle className="text-xl font-bold text-gray-900">Global Scale</CardTitle>
