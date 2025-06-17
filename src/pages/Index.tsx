@@ -29,18 +29,18 @@ const Index = () => {
               for skill development, assessment, and talent readiness.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-400">
+              <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-300 hover:text-black transition-colors">
                 <Link to="/contact">
                   Get Started <ArrowRight className="ml-2" size={20} />
                 </Link>
               </Button>
-              <Button asChild size="lg" className="bg-white text-lume-green font-semibold hover:bg-gray-100">
+              <Button asChild size="lg" className="bg-white text-lume-green font-semibold hover:bg-gray-100 hover:text-lume-blue transition-colors">
                 <Link to="/contact">
                   <Calendar className="mr-2" size={20} />
                   Schedule a Call
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
+              <Button asChild size="lg" variant="outline" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-lume-green font-semibold transition-colors">
                 <Link to="/products">
                   Explore Products
                 </Link>
@@ -90,7 +90,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <Button asChild className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-lume-green hover:bg-green-700 text-white px-8 py-3">
+            <Button asChild className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-lume-green text-white hover:bg-lume-blue font-semibold transition-colors px-8 py-3">
               <Link to="/contact">
                 Request Live Demo <ArrowRight className="ml-2" size={20} />
               </Link>
@@ -147,7 +147,7 @@ const Index = () => {
                     Rich Media Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-green hover:bg-green-700 text-white">
+                <Button asChild className="w-full bg-lume-green text-white hover:bg-lume-blue transition-colors">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
@@ -179,7 +179,7 @@ const Index = () => {
                     Multilingual Support
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-blue hover:bg-blue-700 text-white">
+                <Button asChild className="w-full bg-lume-blue text-white hover:bg-lume-green transition-colors">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
@@ -211,7 +211,7 @@ const Index = () => {
                     Employment Alignment
                   </li>
                 </ul>
-                <Button asChild className="w-full bg-lume-green hover:bg-green-700 text-white">
+                <Button asChild className="w-full bg-lume-green text-white hover:bg-lume-blue transition-colors">
                   <Link to="/products">Learn More</Link>
                 </Button>
               </CardContent>
@@ -279,12 +279,12 @@ const Index = () => {
             Join organizations worldwide who trust LUME to power their skilling infrastructure
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-400">
+            <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-300 hover:text-black transition-colors">
               <Link to="/contact">
                 Schedule Demo <ArrowRight className="ml-2" size={20} />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
+            <Button asChild size="lg" variant="outline" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-lume-green font-semibold transition-colors">
               <Link to="/products">
                 Explore Solutions
               </Link>
