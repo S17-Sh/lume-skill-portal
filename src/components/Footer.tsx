@@ -19,13 +19,26 @@ const Footer = () => {
               From learning to certification, we power the future of work.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+              >
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
+              <a 
+                href="https://twitter.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+              >
                 <Twitter size={20} />
               </a>
-              <a href="mailto:info@lumeglobal.ai" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
+              <a 
+                href="mailto:info@lumeglobal.ai" 
+                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
+              >
                 <Mail size={20} />
               </a>
             </div>
@@ -35,10 +48,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-lume-yellow">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/products" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Products</Link></li>
-              <li><Link to="/about" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">About</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Contact</Link></li>
-              <li><Link to="/careers" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Careers</Link></li>
+              <li><Link to="/products" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">Products</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">About</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">Contact</Link></li>
+              <li><Link to="/careers" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">Careers</Link></li>
             </ul>
           </div>
 
@@ -46,8 +59,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-lume-yellow">Legal</h3>
             <ul className="space-y-2">
-              <li><Link to="/terms" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Terms</Link></li>
-              <li><Link to="/privacy" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Privacy</Link></li>
+              <li><Link to="/terms" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">Terms</Link></li>
+              <li><Link to="/privacy" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium cursor-pointer">Privacy</Link></li>
             </ul>
           </div>
         </div>

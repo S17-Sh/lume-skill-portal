@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -64,7 +63,6 @@ const Team = () => {
                       src={member.image} 
                       alt={member.name}
                       className="w-full h-full object-cover object-center"
-                      style={{ maxWidth: '128px', maxHeight: '128px' }}
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-gray-900">{member.name}</CardTitle>
