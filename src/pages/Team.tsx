@@ -8,19 +8,28 @@ import { Link } from 'react-router-dom';
 const Team = () => {
   const leadershipMembers = [
     {
-      name: "Lika Jain",
-      image: "/lovable-uploads/3f137d77-58df-4cda-9e2d-591c3c0f532f.png",
-      description: "Seasoned corporate strategy & finance professional with experience in Education, Telecom, Media, and Consumer Tech"
+      name: "Ashish Jhalani",
+      title: "Advisor & Investor",
+      image: "/lovable-uploads/1151322c-7dab-4ffc-964e-32a776e2ed99.png",
+      description: "Ashish brings extensive expertise in early-stage startup funding, strategic growth advisory, and scaling ventures. He has led investments in emerging tech and healthcare firms, supporting founders with capital, mentorship, and industry connections."
     },
     {
-      name: "Anil Ambati", 
-      image: "/lovable-uploads/4fb1f36f-52c6-4f11-af2c-4a6230096aed.png",
-      description: "Accomplished sales professional with expertise in Private & Government Business across sectors"
+      name: "Lika Jain", 
+      title: "Founder & CEO",
+      image: "/lovable-uploads/3f137d77-58df-4cda-9e2d-591c3c0f532f.png",
+      description: "With 10+ years of founding and leading initiatives across youth movements and international organizations, Lika brings strong leadership in community engagement, organizational strategy, and global impact execution."
     },
     {
       name: "Shivani Karkal",
+      title: "Head of Sales & Delivery",
       image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
-      description: "Dynamic business strategist with experience in Retail, Edtech & Skilling"
+      description: "Shivani oversees end-to-end sales operations and client delivery strategies. With a strong background in building distribution networks and sales enablement frameworks, Shivani ensures customer success through reliable execution and support."
+    },
+    {
+      name: "Anil Gopinath",
+      title: "Consulting CTO",
+      image: "/lovable-uploads/0b609230-bf43-4ba0-a525-212a375196ec.png",
+      description: "Anil leverages decades of experience in technology leadership and enterprise delivery. As a seasoned technology consultant, he advises on architecture, scalability, and innovation, driving technical strategy without being tied into full-time commitments."
     }
   ];
 
@@ -35,10 +44,10 @@ const Team = () => {
             Our Leadership
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-4">
-            Seasoned team with cumulative experience of 120+ years
+            Expert team with diverse backgrounds in technology, business, and strategic growth
           </p>
           <p className="text-lg text-blue-100 max-w-3xl mx-auto">
-            Diverse group of experts with deep domain knowledge, global experience, and a shared commitment to innovation.
+            United by a shared commitment to innovation and transforming the future of work through intelligent skilling infrastructure.
           </p>
         </div>
       </section>
@@ -46,7 +55,7 @@ const Team = () => {
       {/* Leadership Team */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {leadershipMembers.map((member, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
                 <CardHeader className="text-center pb-4">
@@ -58,6 +67,7 @@ const Team = () => {
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-gray-900">{member.name}</CardTitle>
+                  <p className="text-lume-green font-semibold">{member.title}</p>
                 </CardHeader>
                 <CardContent className="text-center">
                   <p className="text-gray-700">{member.description}</p>

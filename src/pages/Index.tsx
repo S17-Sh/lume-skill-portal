@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, BookOpen, Award, Brain, Users, Globe, Zap, CheckCircle } from 'lucide-react';
+import { ArrowRight, BookOpen, Award, Brain, Users, Globe, Zap, CheckCircle, Calendar, Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -30,13 +30,19 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-400">
-                <Link to="/products">
-                  Explore Products <ArrowRight className="ml-2" size={20} />
+                <Link to="/contact">
+                  Get Started <ArrowRight className="ml-2" size={20} />
+                </Link>
+              </Button>
+              <Button asChild size="lg" className="bg-white text-lume-green font-semibold hover:bg-gray-100">
+                <Link to="/contact">
+                  <Calendar className="mr-2" size={20} />
+                  Schedule a Call
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-green">
-                <Link to="/contact">
-                  Partner With Us
+                <Link to="/products">
+                  Explore Products
                 </Link>
               </Button>
             </div>
@@ -49,6 +55,47 @@ const Index = () => {
         </div>
         <div className="absolute bottom-20 right-10 animate-float" style={{ animationDelay: '1s' }}>
           <div className="w-12 h-12 bg-white rounded-full opacity-20"></div>
+        </div>
+      </section>
+
+      {/* Dashboard Preview Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              See LUME in Action
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Experience our intuitive platform that transforms learning into measurable career outcomes
+            </p>
+          </div>
+          
+          <div className="relative max-w-5xl mx-auto">
+            <div className="bg-gradient-to-br from-lume-light-green to-gray-100 rounded-2xl p-8 shadow-2xl">
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="flex space-x-2">
+                    <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                  </div>
+                  <Badge className="bg-lume-green text-white">Live Demo</Badge>
+                </div>
+                <div className="aspect-video bg-gradient-to-br from-lume-green to-lume-blue rounded-lg flex items-center justify-center">
+                  <div className="text-center text-white">
+                    <Play className="mx-auto mb-4" size={48} />
+                    <h3 className="text-xl font-semibold mb-2">Interactive Dashboard Preview</h3>
+                    <p className="text-green-100">Coming Soon - Full Platform Demo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Button asChild className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-lume-green hover:bg-green-700 text-white px-8 py-3">
+              <Link to="/contact">
+                Request Live Demo <ArrowRight className="ml-2" size={20} />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 
