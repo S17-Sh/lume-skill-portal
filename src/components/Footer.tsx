@@ -19,13 +19,13 @@ const Footer = () => {
               From learning to certification, we power the future of work.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="#" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <Twitter size={20} />
               </a>
-              <a href="mailto:info@lumeglobal.ai" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:info@lumeglobal.ai" className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700">
                 <Mail size={20} />
               </a>
             </div>
@@ -33,21 +33,21 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-lume-yellow">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/products" className="text-gray-300 hover:text-white transition-colors">Products</Link></li>
-              <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About</Link></li>
-              <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link></li>
-              <li><Link to="/careers" className="text-gray-300 hover:text-white transition-colors">Careers</Link></li>
+              <li><Link to="/products" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Products</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">About</Link></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Contact</Link></li>
+              <li><Link to="/careers" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Careers</Link></li>
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
+            <h3 className="text-lg font-semibold mb-4 text-lume-yellow">Legal</h3>
             <ul className="space-y-2">
-              <li><Link to="/terms" className="text-gray-300 hover:text-white transition-colors">Terms</Link></li>
-              <li><Link to="/privacy" className="text-gray-300 hover:text-white transition-colors">Privacy</Link></li>
+              <li><Link to="/terms" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Terms</Link></li>
+              <li><Link to="/privacy" className="text-gray-300 hover:text-lume-yellow transition-colors font-medium">Privacy</Link></li>
             </ul>
           </div>
         </div>
