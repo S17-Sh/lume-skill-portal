@@ -59,11 +59,12 @@ const Team = () => {
             {leadershipMembers.map((member, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group hover:scale-105">
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto w-32 h-32 rounded-full overflow-hidden mb-4 group-hover:scale-105 transition-transform">
+                  <div className="mx-auto w-32 h-32 rounded-full overflow-hidden mb-4 group-hover:scale-105 transition-transform flex-shrink-0">
                     <img 
                       src={member.image} 
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-center"
+                      style={{ maxWidth: '128px', maxHeight: '128px' }}
                     />
                   </div>
                   <CardTitle className="text-xl font-bold text-gray-900">{member.name}</CardTitle>
@@ -137,12 +138,12 @@ const Team = () => {
             We're always looking for exceptional talent who share our passion for transforming education and human potential
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-lume-yellow text-black hover:bg-yellow-400 font-semibold">
+            <Button asChild size="lg" className="bg-lume-yellow text-black hover:bg-yellow-300 hover:text-black font-semibold transition-colors">
               <Link to="/contact">
                 View Open Positions
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-lume-blue">
+            <Button asChild size="lg" variant="outline" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-lume-blue font-semibold transition-colors">
               <Link to="/contact">
                 Partner With Us
               </Link>

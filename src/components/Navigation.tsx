@@ -42,13 +42,13 @@ const Navigation = () => {
                 className={`px-3 py-2 text-sm font-medium transition-colors ${
                   isActive(item.path)
                     ? 'text-lume-green border-b-2 border-lume-green'
-                    : 'text-gray-700'
+                    : 'text-gray-700 hover:text-lume-green'
                 }`}
               >
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="bg-lume-green text-white hover:bg-green-700">
+            <Button asChild className="bg-lume-green text-white hover:bg-green-600 font-semibold transition-colors">
               <Link to="/contact">
                 Get Started
               </Link>
@@ -78,7 +78,7 @@ const Navigation = () => {
                   className={`block px-3 py-2 text-base font-medium transition-colors ${
                     isActive(item.path)
                       ? 'text-lume-green bg-lume-light-green'
-                      : 'text-gray-700'
+                      : 'text-gray-700 hover:text-lume-green hover:bg-gray-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
@@ -86,7 +86,7 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button asChild className="w-full bg-lume-green text-white hover:bg-green-700">
+                <Button asChild className="w-full bg-lume-green text-white hover:bg-green-600 font-semibold transition-colors">
                   <Link to="/contact">
                     Get Started
                   </Link>
