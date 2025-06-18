@@ -1,6 +1,5 @@
 
 import { Link } from 'react-router-dom';
-import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,30 +17,6 @@ const Footer = () => {
               Intelligent Skilling Infrastructure for a Smarter Workforce. 
               From learning to certification, we power the future of work.
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
-              >
-                <Twitter size={20} />
-              </a>
-              <a 
-                href="mailto:info@lumeglobal.ai" 
-                className="text-lume-yellow hover:text-white transition-colors p-2 bg-gray-800 rounded-lg hover:bg-gray-700 cursor-pointer"
-              >
-                <Mail size={20} />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
