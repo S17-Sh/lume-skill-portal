@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -7,7 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Mail, MapPin, Linkedin, Twitter, Phone, MessageSquare } from 'lucide-react';
+import { Mail, MapPin, Phone, MessageSquare } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 
@@ -179,33 +178,6 @@ const Contact = () => {
                     New York, NY 10017<br />
                     Lewes, Delaware, USA
                   </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-xl font-bold text-gray-900 flex items-center">
-                    <MessageSquare className="mr-2 text-lume-yellow" size={24} />
-                    Connect With Us
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-3">
-                    <a 
-                      href="#" 
-                      className="flex items-center text-gray-700 hover:text-lume-blue transition-colors"
-                    >
-                      <Linkedin className="mr-3" size={20} />
-                      LinkedIn
-                    </a>
-                    <a 
-                      href="#" 
-                      className="flex items-center text-gray-700 hover:text-lume-blue transition-colors"
-                    >
-                      <Twitter className="mr-3" size={20} />
-                      Twitter/X
-                    </a>
-                  </div>
                 </CardContent>
               </Card>
 
