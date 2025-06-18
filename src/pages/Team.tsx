@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,19 +14,19 @@ const Team = () => {
     },
     {
       name: "Lika Jain", 
-      title: "Founder & CEO",
+      title: "Founder",
       image: "/lovable-uploads/3f137d77-58df-4cda-9e2d-591c3c0f532f.png",
       description: "Visionary leader with a proven track record in corporate strategy and finance across Education, Telecom, Media, and Consumer Tech. Lika brings deep cross-sectoral expertise and a bold vision to drive innovation and impact through technology."
     },
     {
       name: "Shivani Karkal",
-      title: "Head of Sales & Delivery",
+      title: "Sales & Client Success",
       image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
       description: "Dynamic business strategist leading sales and client delivery with a sharp focus on revenue growth and execution. With experience across Retail, EdTech, and Skilling, she drives market expansion and successful product rollouts across diverse client ecosystems."
     },
     {
       name: "Anil Gopinath",
-      title: "Consulting CTO",
+      title: "Fractional CTO",
       image: "/lovable-uploads/0b609230-bf43-4ba0-a525-212a375196ec.png",
       description: "Seasoned engineering leader with over two decades of experience, Anil has shaped product and technology roadmaps at startups and giants like AWS and Yahoo. He brings deep technical insight and startup agility to power our product vision."
     }
