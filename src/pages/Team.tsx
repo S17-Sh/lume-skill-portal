@@ -1,3 +1,4 @@
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -10,25 +11,25 @@ const Team = () => {
       name: "Ashish Jhalani",
       title: "Advisor & Investor",
       image: "/lovable-uploads/1151322c-7dab-4ffc-964e-32a776e2ed99.png",
-      description: "Ashish brings extensive expertise in early-stage startup funding, strategic growth advisory, and scaling ventures. He has led investments in emerging tech and healthcare firms, supporting founders with capital, mentorship, and industry connections."
+      description: "Senior advisor and investor with a keen eye for scalable ventures. Ashish brings strategic foresight, financial acumen, and hands-on experience supporting high-growth companies through critical inflection points."
     },
     {
       name: "Lika Jain", 
       title: "Founder & CEO",
       image: "/lovable-uploads/3f137d77-58df-4cda-9e2d-591c3c0f532f.png",
-      description: "With 10+ years of founding and leading initiatives across youth movements and international organizations, Lika brings strong leadership in community engagement, organizational strategy, and global impact execution."
+      description: "Visionary leader with a proven track record in corporate strategy and finance across Education, Telecom, Media, and Consumer Tech. Lika brings deep cross-sectoral expertise and a bold vision to drive innovation and impact through technology."
     },
     {
       name: "Shivani Karkal",
       title: "Head of Sales & Delivery",
       image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
-      description: "Shivani oversees end-to-end sales operations and client delivery strategies. With a strong background in building distribution networks and sales enablement frameworks, Shivani ensures customer success through reliable execution and support."
+      description: "Dynamic business strategist leading sales and client delivery with a sharp focus on revenue growth and execution. With experience across Retail, EdTech, and Skilling, she drives market expansion and successful product rollouts across diverse client ecosystems."
     },
     {
       name: "Anil Gopinath",
       title: "Consulting CTO",
       image: "/lovable-uploads/0b609230-bf43-4ba0-a525-212a375196ec.png",
-      description: "Anil leverages decades of experience in technology leadership and enterprise delivery. As a seasoned technology consultant, he advises on architecture, scalability, and innovation, driving technical strategy without being tied into full-time commitments."
+      description: "Seasoned engineering leader with over two decades of experience, Anil has shaped product and technology roadmaps at startups and giants like AWS and Yahoo. He brings deep technical insight and startup agility to power our product vision."
     }
   ];
 
