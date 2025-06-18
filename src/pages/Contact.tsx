@@ -217,7 +217,7 @@ const Contact = () => {
                   </p>
                   <Button 
                     variant="outline" 
-                    className="border-white text-white hover:bg-white hover:text-lume-blue"
+                    className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-lume-blue font-semibold transition-colors"
                   >
                     Schedule Call
                   </Button>
