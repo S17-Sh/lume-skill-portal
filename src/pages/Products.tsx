@@ -110,15 +110,15 @@ const Products = () => {
               
               <p className="text-lg text-gray-700 mb-8">
                 Transform how you assess and certify skills with our intelligent platform that provides 
-                reliable, scalable, and secure certification processes with blockchain verification.
+                reliable, scalable, and secure certification processes with digital verification.
               </p>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Blockchain Certificates</h4>
-                    <p className="text-gray-600">Secure, verifiable digital certificates with blockchain technology</p>
+                    <h4 className="font-semibold text-gray-900">Digital Certificates</h4>
+                    <p className="text-gray-600">Secure, verifiable digital certificates with advanced verification technology</p>
                   </div>
                 </div>
                 <div className="flex items-start">

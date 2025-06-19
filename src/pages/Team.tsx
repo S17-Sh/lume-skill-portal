@@ -1,3 +1,4 @@
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -20,7 +21,7 @@ const Team = () => {
     },
     {
       name: "Shivani Karkal",
-      title: "Sales & Client Success",
+      title: "VP, Sales & Client Success",
       image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
       description: "Dynamic business strategist leading sales and client delivery with a sharp focus on revenue growth and execution. With experience across Retail, EdTech, and Skilling, she drives market expansion and successful product rollouts across diverse client ecosystems."
     },

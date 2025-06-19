@@ -32,7 +32,7 @@ const About = () => {
                 Who We Are
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                LUME is a next-generation skilling company that's revolutionizing learning, assessment, 
+                LUME GLOBAL.AI is a next-generation skilling company that's revolutionizing learning, assessment, 
                 and talent readiness. We believe that every individual has unique potential waiting to be unlocked.
               </p>
               <p className="text-lg text-gray-700 mb-8">
