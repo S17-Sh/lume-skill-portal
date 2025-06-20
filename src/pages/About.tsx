@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -15,7 +14,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-lume-blue to-lume-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About LUME Global.AI
+            About Us LUME Global.AI
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             We're reshaping how the world learns, assesses skills, and connects talent with opportunity through intelligent technology.
