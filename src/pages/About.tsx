@@ -1,3 +1,4 @@
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -14,10 +15,10 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-lume-blue to-lume-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About Us LUME Global.AI
+            About LUME Global.AI
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            We're reshaping how the world learns, assesses skills, and connects talent with opportunity through intelligent technology.
+            We're redefining how the skills are built, assessed and linked to job opportunities using intelligent technology.
           </p>
         </div>
       </section>
@@ -31,13 +32,18 @@ const About = () => {
                 Who We Are
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                LUME GLOBAL.AI is a next-generation skilling company that's revolutionizing learning, assessment, 
-                and talent readiness. We believe that every individual has unique potential waiting to be unlocked.
+                LUME Global Inc. is a SkillTech company on a mission to transform how nations and enterprises 
+                build human capital. Headquartered in the US with a growing presence across India, the Middle East, 
+                and Africa, we develop AI-powered platforms that enable large-scale skilling, workforce development, 
+                and institutional learning.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                Our flagship product, LUME, serves as the digital infrastructure for ministries, corporates, 
+                industry bodies, and universities looking to deliver high-impact learning and skilling programs.
               </p>
               <p className="text-lg text-gray-700 mb-8">
-                Our platform combines cutting-edge AI with deep educational expertise to create 
-                seamless learning journeys that transform careers and empower organizations to build 
-                future-ready workforces.
+                At LUME Global, we work at the intersection of policy, technology, and outcomes — empowering 
+                institutions to deliver measurable change through scalable, intelligent systems.
               </p>
               <Button asChild className="bg-lume-blue hover:bg-blue-700">
                 <Link to="/team">Meet Our Team</Link>
@@ -65,8 +71,8 @@ const About = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  To illuminate every individual's potential with smart, scalable, 
-                  AI-powered skilling tools that bridge the gap between learning and employment.
+                  To illuminate every learner's and workforce's path with intelligent, scalable skilling 
+                  tools that bridge the gap between learning and employment.
                 </p>
               </CardContent>
             </Card>
@@ -80,8 +86,8 @@ const About = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  A world where skill development is accessible, personalized, and directly 
-                  connected to meaningful career opportunities for everyone, everywhere.
+                  A future where everyone can access personalized, outcome-oriented skill development 
+                  and career mobility.
                 </p>
               </CardContent>
             </Card>
@@ -95,8 +101,8 @@ const About = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  Innovation, accessibility, excellence, and human-centered design drive 
-                  everything we do. We believe technology should empower, not complicate.
+                  We are driven by innovation, accessibility, excellence, and user-centered design. 
+                  We build technology that empowers — not complicates.
                 </p>
               </CardContent>
             </Card>
@@ -109,11 +115,8 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Our Story
+              Our Story: From Fragmentation to Integration journeys
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From fragmented systems to integrated journeys
-            </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
@@ -139,9 +142,8 @@ const About = () => {
               <div className="border-l-4 border-lume-yellow pl-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">The Impact</h3>
                 <p className="text-gray-700 mb-4">
-                  Today, LUME powers skill development for organizations worldwide, helping millions of learners 
-                  transform their careers through intelligent, personalized learning experiences that directly 
-                  connect to employment opportunities.
+                  LUME powers skilling at national and enterprise scale — enabling millions of learners 
+                  to upskill, certify, and transition into jobs that match their competencies.
                 </p>
               </div>
             </div>
