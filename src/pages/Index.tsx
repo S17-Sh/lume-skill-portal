@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -32,12 +31,6 @@ const Index = () => {
               <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-300 hover:text-black transition-colors">
                 <Link to="/contact">
                   Get Started <ArrowRight className="ml-2" size={20} />
-                </Link>
-              </Button>
-              <Button asChild size="lg" className="bg-white text-lume-green font-semibold hover:bg-gray-100 hover:text-lume-blue transition-colors">
-                <Link to="/contact">
-                  <Calendar className="mr-2" size={20} />
-                  Schedule a Call
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-lume-green font-semibold transition-colors">
