@@ -25,8 +25,8 @@ const Index = () => {
               <span className="block text-lume-yellow">for a Smarter Workforce</span>
             </h1>
             <p className="text-xl md:text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
-              From learning to certification, we power the future of work with AI-driven platforms 
-              for skill development, assessment, and talent readiness.
+              From learning to certification, we enable workforce transformation with AI-driven platforms 
+              for skill development, talent readiness and real world outcomes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-300 hover:text-black transition-colors">
@@ -66,7 +66,7 @@ const Index = () => {
               See LUME in Action
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience our intuitive platform that transforms learning into measurable career outcomes
+              Experience our intuitive platform that transforms learning into measurable career advancements
             </p>
           </div>
           
@@ -116,27 +116,27 @@ const Index = () => {
               Our Product Suite
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions for the entire learning journey - from skill acquisition to certification
+              Integrated solutions for every stage of skilling – from skill acquisition to certification and workforce deployment
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* LUME Vocational Platform */}
+            {/* LUME Learning Platform */}
             <Card className="border border-gray-200 shadow-lg bg-white">
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto w-16 h-16 bg-lume-green rounded-xl flex items-center justify-center mb-4">
                   <BookOpen className="text-white" size={28} />
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900">LUME Vocational Platform</CardTitle>
+                <CardTitle className="text-xl font-bold text-gray-900">LUME Learning Platform</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Next-generation LMS with AI-powered content creation
+                  Modern LMS designed for sector specific training
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Modular UI & MS 365 Integration
+                    Customisable UI & MS 365 Integration
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
@@ -161,18 +161,14 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Certification Engine</CardTitle>
                 <CardDescription className="text-gray-600">
-                  Assessment & certificate platform with blockchain verification
+                  Intelligent Assessment & certificate engine with digital verification
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Blockchain Certificates
-                  </li>
-                  <li className="flex items-center text-gray-700">
-                    <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Assessment Engine
+                    Dynamic Assessment Builder
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
@@ -193,7 +189,7 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl font-bold text-gray-900">LUME Skill Engine</CardTitle>
                 <CardDescription className="text-gray-600">
-                  AI-powered skill intelligence for workforce capability
+                  Skill intelligence for enterprise planning and career pathways
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -204,11 +200,11 @@ const Index = () => {
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Personalized Learning Paths
+                    Personalized Learning Journeys
                   </li>
                   <li className="flex items-center text-gray-700">
                     <CheckCircle className="text-lume-green mr-2" size={16} />
-                    Employment Alignment
+                    Job Role Readiness & Mobility
                   </li>
                 </ul>
                 <Button asChild className="w-full bg-lume-green text-white hover:bg-lume-blue transition-colors">
@@ -276,7 +272,7 @@ const Index = () => {
             Ready to Transform Your Workforce?
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Join organizations worldwide who trust LUME to power their skilling infrastructure
+            Join organizations across industries who trust LUME to power their workforce skilling infrastructure
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-lume-yellow text-black font-semibold hover:bg-yellow-300 hover:text-black transition-colors">
