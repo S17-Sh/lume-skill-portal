@@ -19,7 +19,7 @@ const Products = () => {
             Our Product Suite
           </h1>
           <p className="text-xl text-green-100 max-w-3xl mx-auto">
-            Comprehensive solutions for the entire learning journey - from skill acquisition to certification and employment readiness.
+            Unified, AI-powered solutions for end-to-end skilling and job readiness
           </p>
         </div>
       </section>
@@ -48,7 +48,7 @@ const Products = () => {
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Modular UI Design</h4>
+                    <h4 className="font-semibold text-gray-900">Customisable UI Design</h4>
                     <p className="text-gray-600">Customizable interface that adapts to your organization's branding and workflow</p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const Products = () => {
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Rich File Support</h4>
+                    <h4 className="font-semibold text-gray-900">Rich Media Support</h4>
                     <p className="text-gray-600">Support for multimedia content including videos, interactive simulations, and documents</p>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ const Products = () => {
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Assessment Engine</h4>
+                    <h4 className="font-semibold text-gray-900">Dynamic Assessment Builder</h4>
                     <p className="text-gray-600">AI-powered assessments that adapt to skill levels and provide detailed analytics</p>
                   </div>
                 </div>
@@ -193,14 +193,14 @@ const Products = () => {
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Personalized Learning Paths</h4>
+                    <h4 className="font-semibold text-gray-900">Personalized Learning Journeys</h4>
                     <p className="text-gray-600">AI-recommended training paths tailored to individual skill gaps and career goals</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="text-lume-green mr-3 mt-1" size={20} />
                   <div>
-                    <h4 className="font-semibold text-gray-900">Employment Alignment</h4>
+                    <h4 className="font-semibold text-gray-900">Job Role Readiness & Mobility</h4>
                     <p className="text-gray-600">Connect training directly to employment outcomes and workforce readiness</p>
                   </div>
                 </div>
@@ -239,7 +239,7 @@ const Products = () => {
               Integrated Platform Benefits
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              When all components work together, the whole becomes greater than the sum of its parts
+              When combined LUME delivers exponential values
             </p>
           </div>
 
@@ -247,11 +247,11 @@ const Products = () => {
             <Card className="border border-gray-200 shadow-lg bg-white">
               <CardHeader className="text-center">
                 <Zap className="mx-auto text-lume-green mb-4" size={48} />
-                <CardTitle className="text-xl font-bold text-gray-900">Seamless Workflow</CardTitle>
+                <CardTitle className="text-xl font-bold text-gray-900">Lifecycle</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  Learners move smoothly from learning to assessment to certification without switching platforms
+                  Complete lifecycle coverage from onboarding to certification and workforce deployment
                 </p>
               </CardContent>
             </Card>
@@ -263,7 +263,7 @@ const Products = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  Complete visibility into learning progress, skill development, and certification outcomes
+                  Complete visibility into learning progress, skill development, and certification outcomes and measure ROI across all skilling interventions
                 </p>
               </CardContent>
             </Card>
@@ -275,7 +275,7 @@ const Products = () => {
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-700">
-                  Deploy consistent training and certification programs across multiple regions and languages
+                  Scalable, multilingual deployment across sectors and geographies
                 </p>
               </CardContent>
             </Card>
@@ -290,7 +290,7 @@ const Products = () => {
             Ready to Experience LUME?
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            See how our integrated platform can transform your organization's approach to skill development
+            See how LUME helps you achieve workforce transformation with integrated learning, certification and skill intelligence
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-lume-yellow text-black hover:bg-yellow-400 font-semibold">

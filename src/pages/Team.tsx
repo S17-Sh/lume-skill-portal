@@ -20,16 +20,16 @@ const Team = () => {
       description: "Visionary leader with a proven track record in corporate strategy and finance across Education, Telecom, Media, and Consumer Tech. Lika brings deep cross-sectoral expertise and a bold vision to drive innovation and impact through technology."
     },
     {
-      name: "Shivani Karkal",
-      title: "VP, Sales & Client Success",
-      image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
-      description: "Dynamic business strategist leading sales and client delivery with a sharp focus on revenue growth and execution. With experience across Retail, EdTech, and Skilling, she drives market expansion and successful product rollouts across diverse client ecosystems."
-    },
-    {
       name: "Anil Gopinath",
       title: "Fractional CTO",
       image: "/lovable-uploads/0b609230-bf43-4ba0-a525-212a375196ec.png",
       description: "Seasoned engineering leader with over two decades of experience, Anil has shaped product and technology roadmaps at startups and giants like AWS and Yahoo. He brings deep technical insight and startup agility to power our product vision."
+    },
+    {
+      name: "Shivani Karkal",
+      title: "VP - Sales & Client Success",
+      image: "/lovable-uploads/eac4cdac-d012-4cc3-9fc7-08417224a940.png", 
+      description: "Dynamic business strategist leading sales and client delivery with a sharp focus on revenue growth and execution. With experience across Retail, EdTech, and Skilling, she drives market expansion and successful product rollouts across diverse client ecosystems."
     }
   ];
 
@@ -44,7 +44,7 @@ const Team = () => {
             Our Leadership
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-4">
-            Expert team with diverse backgrounds in technology, business, and strategic growth
+            We're a mission-driven team with expertise across technology, education, and business strategy.
           </p>
           <p className="text-lg text-blue-100 max-w-3xl mx-auto">
             United by a shared commitment to innovation and transforming the future of work through intelligent skilling infrastructure.
@@ -97,8 +97,7 @@ const Team = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Innovation First</h3>
               <p className="text-gray-700">
-                We constantly push boundaries to create solutions that didn't exist before, 
-                always with the learner's success in mind.
+                We challenge the status quo to build solutions learners actually need.
               </p>
             </div>
 
@@ -108,8 +107,7 @@ const Team = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Global Impact</h3>
               <p className="text-gray-700">
-                Every decision we make is guided by our commitment to democratizing 
-                access to quality learning and skill development worldwide.
+                We design for inclusivity and accessibility to bridge global skill gaps.
               </p>
             </div>
 
@@ -119,8 +117,7 @@ const Team = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Human-Centered</h3>
               <p className="text-gray-700">
-                Technology serves people, not the other way around. We design with empathy 
-                and deep understanding of human learning needs.
+                We build empathetic, intuitive tools that work for real people.
               </p>
             </div>
           </div>

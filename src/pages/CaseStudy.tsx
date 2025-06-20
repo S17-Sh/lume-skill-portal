@@ -1,3 +1,4 @@
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -18,7 +19,7 @@ const CaseStudy = () => {
             Case Study
           </Badge>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Vocational Skilling & Certification for Energy and Minerals Sector in Oman
+            Oman Energy & Minerals Sector: National-Scale Workforce Certification
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             How LUME's integrated platform delivered scalable digital infrastructure for 
@@ -38,9 +39,8 @@ const CaseStudy = () => {
               vocational training and competency-based certification across various industrial job roles.
             </p>
             <p className="text-lg text-gray-700">
-              Using LUME's modular skilling suite, we delivered an integrated solution that transformed 
-              their training and certification processes, enabling rapid, standardized skilling at a 
-              national and sectoral level to support workforce transformation in industrial economies.
+              With LUME, they transformed fragmented systems into a cohesive platform that supported 
+              national skilling standards and future-ready job readiness.
             </p>
           </div>
         </div>
@@ -206,9 +206,17 @@ const CaseStudy = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl font-bold text-lume-blue mb-2">
+                <TrendingUp className="mx-auto mb-2" size={48} />
+                Improvement
+              </div>
+              <p className="text-gray-700 font-semibold">Better Skilling outcomes</p>
+              <p className="text-sm text-gray-600 mt-1">for the workforce</p>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold text-lume-green mb-2">
                 <Zap className="mx-auto mb-2" size={48} />
                 Reduced
               </div>
@@ -216,15 +224,15 @@ const CaseStudy = () => {
               <p className="text-sm text-gray-600 mt-1">for training and certification logistics</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-lume-green mb-2">
-                <TrendingUp className="mx-auto mb-2" size={48} />
+              <div className="text-4xl font-bold text-lume-yellow mb-2">
+                <Clock className="mx-auto mb-2" size={48} />
                 Real-time
               </div>
               <p className="text-gray-700 font-semibold">Progress Visibility</p>
               <p className="text-sm text-gray-600 mt-1">via stakeholder dashboards</p>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-lume-yellow mb-2">
+              <div className="text-4xl font-bold text-lume-blue mb-2">
                 <Award className="mx-auto mb-2" size={48} />
                 Replicable
               </div>
