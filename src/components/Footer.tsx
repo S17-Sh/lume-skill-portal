@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <img 
               src="/lovable-uploads/03e4c471-cf8e-4226-b1ae-04e55d73bb7e.png" 
-              alt="LUME Global.AI" 
+              alt="LUME GLOBAL INC" 
               className="h-8 w-auto mb-4 filter brightness-0 invert"
             />
             <p className="text-gray-300 mb-4 max-w-md">
@@ -43,12 +43,12 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              <p>LUME Global.AI</p>
-              <p>845 United Nations Plaza, Apt 10A, New York, NY 10017, Lewes, Delaware, USA</p>
+              <p>LUME GLOBAL INC</p>
+              <p>16192, Coastal Highway Lewes, Delaware 19958, Country of Sussex, United States</p>
               <p>Corporate Email: info@lumeglobal.ai</p>
             </div>
             <div className="text-gray-400 text-sm mt-4 md:mt-0">
-              © 2025 LUME Global.AI. All rights reserved.
+              © 2025 LUME GLOBAL INC. All rights reserved.
             </div>
           </div>
         </div>

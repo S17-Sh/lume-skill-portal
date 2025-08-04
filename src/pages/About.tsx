@@ -15,7 +15,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-br from-lume-blue to-lume-green">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About LUME Global.AI
+            About LUME GLOBAL INC
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
             We're redefining how the skills are built, assessed and linked to job opportunities using intelligent technology.

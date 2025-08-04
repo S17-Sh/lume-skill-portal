@@ -173,10 +173,10 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
-                    LUME Global.AI<br />
-                    845 United Nations Plaza, Apt 10A<br />
-                    New York, NY 10017<br />
-                    Lewes, Delaware, USA
+                    LUME GLOBAL INC<br />
+                    16192, Coastal Highway Lewes<br />
+                    Delaware 19958<br />
+                    Country of Sussex, United States
                   </p>
                 </CardContent>
               </Card>
