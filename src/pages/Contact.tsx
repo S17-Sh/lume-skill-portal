@@ -173,10 +173,9 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-700">
-                    LUME GLOBAL INC<br />
-                    16192, Coastal Highway Lewes<br />
-                    Delaware 19958<br />
-                    Country of Sussex, United States
+                    LUME GLOBAL Inc<br />
+                    16192 Coastal Hwy<br />
+                    Lewes, DE 19958 (USA)
                   </p>
                 </CardContent>
               </Card>

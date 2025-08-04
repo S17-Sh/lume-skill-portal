@@ -43,12 +43,12 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              <p>LUME GLOBAL INC</p>
-              <p>16192, Coastal Highway Lewes, Delaware 19958, Country of Sussex, United States</p>
+              <p>LUME GLOBAL Inc</p>
+              <p>16192 Coastal Hwy<br />Lewes, DE 19958 (USA)</p>
               <p>Corporate Email: info@lumeglobal.ai</p>
             </div>
             <div className="text-gray-400 text-sm mt-4 md:mt-0">
-              © 2025 LUME GLOBAL INC. All rights reserved.
+              © 2025 LUME GLOBAL Inc. All rights reserved.
             </div>
           </div>
         </div>
